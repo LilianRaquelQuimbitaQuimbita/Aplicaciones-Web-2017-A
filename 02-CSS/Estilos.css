@@ -1,0 +1,62 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+
+    0%   {
+        width: 75px;
+        height: 75px;
+        background-color: red;
+    }
+    25%  {
+        width: 50px;
+        height: 50px;
+        width:50px;
+        background-color: yellow;}
+    50%  {
+        width: 75px;
+        height: 75px;
+        background-color: blue;}
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: green;}
+
+}
+button:focus{
+    border:solid;
+    border-color:red;
+    background-color:yellow;
+}
+button:hover{
+    border:solid;
+    border-color:red;
+    background-color:yellow;
+}
+
+#idmalicioso {
+    background-color: black;
+}
+.boton-exito {
+    background-color: #28c34c;
+    color: #efecec;
+}
+.boton-cuidado {
+    background-color: #ff5020;
+    color: #efecec;
+}
+.boton-exito {
+    background-color: #000000;
+    color: #efecec;
+}
+.boton-exito {
+    background-color: #385cc3;
+    color: #efecec;
+}
