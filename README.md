@@ -1,6 +1,6 @@
 # Aplicaciones-Web-2017-A
 # Comandos
-## LEVANTAR SERVIDRO HTTP
+## LEVANTAR SERVIDOR HTTP
 Para levantar el servidor http usamos el comando:
  
 ```
