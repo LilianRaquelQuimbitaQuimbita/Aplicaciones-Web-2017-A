@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
     <link rel="stylesheet" href="Estilos.css">
 
     <style>
@@ -67,14 +72,12 @@
 
 <button
         id="idmalicioso"
-        style="color: yellow;background-color: blue;"
+        style="color: yellow;background-color: blue";
         class="boton-cuidado">
     Destruir Universo
 </button>
 
-
-
-<button id="idmalicioso" class="boton-exito">
+<button id="idmalicioso1" class="boton-exito">
     Crear Universo
 </button>
 
@@ -110,7 +113,29 @@
 </div>
 -->
 
+<a aria-pressed="true"
+   class="UFILikeLink _4x9- _4x9_ _48-k"
+   data-testid="fb-ufi-likelink"
+   href="#" role="button"
+   tabindex="-1">Me gusta
+</a>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your like button code -->
+<div class="fb-like"
+     data-href="http://www.your-domain.com/your-page.html"
+     data-layout="standard"
+     data-action="like"
+     data-show-faces="true">
+</div>
 
 </body>
 
