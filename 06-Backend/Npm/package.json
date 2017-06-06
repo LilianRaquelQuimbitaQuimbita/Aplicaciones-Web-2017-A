@@ -1,0 +1,17 @@
+{
+  "name": "twj-l-quimbita",
+  "version": "1.0.4",
+  "description": "Calculadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculadora"
+  ],
+  "author": "Lilian Raquel",
+  "license": "MIT",
+  "dependencies": {
+    "machinepack-passwords": "^2.3.0"
+  }
+}
