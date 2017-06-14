@@ -1,0 +1,11 @@
+{
+  "name": "aweb-examen-01-quimbita-lilian",
+  "version": "1.0.0",
+  "description": "Examen 1 Bimestre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lilian Raquel",
+  "license": "MIT"
+}
